@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+#include <stdlib.h>
+
+ 
+
+int main() {
+
+    int T, i;
+
+    printf ("Indique el Numero de la tabla: ");
+
+    scanf ("%d", &T);
+
+    puts(""); printf("TABLA DEL %d \n", T);
+
+    for (i=1; i<=12; i++) { printf ("%d * %d = %d \n",T, i, T*i); }
+
+    return 0; 
+
+}
